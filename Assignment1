@@ -8,7 +8,7 @@ main(int argc, char *argv[])
        for (i = 1; i < argc; i++)
 
            printf("Arg %d: %s\n",i, argv[i]);
-            printf("\nTHE NUMBER OF ARGUMENTS PASSED IS : %d",argc -1);
+            printf("\nThe number of arguments passed is  : %d",argc -1);
        getch();
        return 0;
 }
