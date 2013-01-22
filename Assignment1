@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+
+main(int argc, char *argv[])
+{
+       int i;
+
+       for (i = 1; i < argc; i++)
+
+           printf("Arg %d: %s\n",i, argv[i]);
+            printf("\nTHE NUMBER OF ARGUMENTS PASSED IS : %d",argc -1);
+       getch();
+       return 0;
+}
